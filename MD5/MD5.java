@@ -1,6 +1,7 @@
+package MD5;
+
 import java.security.*;
 import java.util.Scanner;
-
 import javax.xml.bind.DatatypeConverter;
 
 public class MD5 {
@@ -10,8 +11,7 @@ public class MD5 {
 
 
         try {
-            
-           
+                     
             Scanner sc = new Scanner(System.in);
             String message = sc.next();
             MessageDigest md = MessageDigest.getInstance("MD5"); 
