@@ -10,3 +10,10 @@ a.exe
 .vscode
 
 /.vscode
+
+.class
+
+/.class
+
+*.class
+/*.class
